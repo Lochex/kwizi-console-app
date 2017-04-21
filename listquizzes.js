@@ -1,5 +1,5 @@
 #!/usr/bin/env node
 
-var listquiz = require('./listquiz.js');
+var listquiz = require('./quizfunc.js');
 
 listquiz.listquiz();
