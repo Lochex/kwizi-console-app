@@ -1,0 +1,27 @@
+{
+    "name": "Kwizi",
+    "version": "1.0.0",
+    "description": "simple console based quiz app",
+    "main": "start.js",
+    "dependencies": {
+        "firebase-admin": "^4.2.1",
+        "readline-sync": "latest",
+        "string-format": "latest",
+        "chalk": "latest",
+        "chalk": "^1.1.3",
+        "clear": "0.0.1",
+        "clui": "^0.3.1",
+        "figlet": "^1.1.2"
+    },
+    "author": "Elochukwu Okonkwo",
+    "bin": {
+        "listquizzes": "listquizzes.js",
+        "takequiz": "takequiz.js",
+        "importquiz": "importquiz.js",
+        "start": "start.js",
+        "listoquiz": "listquizonline.js",
+        "downloadquiz": "downloadquiz.js",
+        "publishquiz": "publishquiz.js",
+        "publishfile": "publishfile.js"
+    }
+}

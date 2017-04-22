@@ -1,0 +1,141 @@
+{
+    "BuildingsQuiz": 
+    [
+        {
+            "question": "Which Building is the Tallest Building in the World",
+            "a": "Answer a",
+            "b": "Answer b",
+            "c": "Answer c",
+            "correct": "a"
+        },
+        {
+            "question": "Whats the color of the Aso Rock",
+            "a": "Answer a",
+            "b": "Answer b",
+            "c": "Answer c",
+            "correct": "b"
+        },
+        {
+            "question": "The White House is located in which country",
+            "a": "Answer a",
+            "b": "Answer b",
+            "c": "Answer c",
+            "correct": "c"
+        },
+        {
+            "Time": 20
+        }
+    ],
+
+    "ComputerQuiz": 
+    [
+        {
+            "question": "Question 1",
+            "a": "Answer a",
+            "b": "Answer b",
+            "c": "Answer c",
+            "correct": "a"
+        },
+        {
+            "question": "Question 2",
+            "a": "Answer a",
+            "b": "Answer b",
+            "c": "Answer c",
+            "correct": "b"
+        },
+        {
+            "question": "Question 3",
+            "a": "Answer a",
+            "b": "Answer b",
+            "c": "Answer c",
+            "correct": "c"
+        },
+        {
+            "Time": 20
+        }
+    ],
+
+    "GrammarQuiz": 
+    [
+        {
+            "question": "Question 1",
+            "a": "Answer a",
+            "b": "Answer b",
+            "c": "Answer c",
+            "correct": "a"
+        },
+        {
+            "question": "Question 2",
+            "a": "Answer a",
+            "b": "Answer b",
+            "c": "Answer c",
+            "correct": "b"
+        },
+        {
+            "question": "Question 3",
+            "a": "Answer a",
+            "b": "Answer b",
+            "c": "Answer c",
+            "correct": "c"
+        },
+        {
+            "Time": 20
+        }
+    ],
+
+    "HistoryQuiz": 
+    [
+        {
+            "question": "Question 1",
+            "a": "Answer a",
+            "b": "Answer b",
+            "c": "Answer c",
+            "correct": "a"
+        },
+        {
+            "question": "Question 2",
+            "a": "Answer a",
+            "b": "Answer b",
+            "c": "Answer c",
+            "correct": "b"
+        },
+        {
+            "question": "Question 3",
+            "a": "Answer a",
+            "b": "Answer b",
+            "c": "Answer c",
+            "correct": "c"
+        },
+        {
+            "Time": 20
+        }
+    ],
+
+    "ColorQuiz": 
+    [
+        {
+            "question": "What is the color of a Mango",
+            "a": "Answer a",
+            "b": "Answer b",
+            "c": "Answer c",
+            "correct": "a"
+        },
+        {
+            "question": "What is the color of a Pear",
+            "a": "Answer a",
+            "b": "Answer b",
+            "c": "Answer c",
+            "correct": "b"
+        },
+        {
+            "question": "Whats the color of an Avocado",
+            "a": "Answer a",
+            "b": "Answer b",
+            "c": "Answer c",
+            "correct": "c"
+        },
+        {
+            "Time": 20
+        }
+    ]
+}
