@@ -13,7 +13,7 @@ format.extend(String.prototype);
 * to the console
 */
 function listquiz() {
-	var content = fs.readFileSync('sample.json', 'utf8');
+	var content = fs.readFileSync('local_repo.json', 'utf8');
 	var obj = JSON.parse(content);
 	console.log("Here is the list of Quizzes Available");
 	console.log('Enter takequiz <quiz-name> to start taking quiz');
@@ -40,14 +40,14 @@ function importquiz(path) {
 		return console.error("No file has been specified, enter a valid path to a quiz");
 	}
 
-	var content2 = fs.readFileSync('sample.json', 'utf8');
+	var content2 = fs.readFileSync('local_repo.json', 'utf8');
 	var obj = JSON.parse(content);
 	var obj2 = JSON.parse(content2);
 
 	output = jsonConcat(output, obj);
 	output = jsonConcat(output, obj2);
 
-	fs.writeFile('./sample.json', JSON.stringify(output), 'utf-8', function(err) {
+	fs.writeFile('./local_repo.json', JSON.stringify(output), 'utf-8', function(err) {
 		if (err) throw err
 		console.log('File imported successfully!');
 	})
@@ -75,7 +75,7 @@ function jsonConcat(o1, o2) {
 * time for a quiz, and breaks the quiz flow if the time elapses.
 */
 function takequiz(quiz) {
-   var contents = fs.readFileSync("sample.json");
+   var contents = fs.readFileSync("local_repo.json");
    var jContent = JSON.parse(contents);
    var abb = jContent[quiz];
 	

@@ -176,15 +176,16 @@ function dQuiz(json, quizname) {
 	catch(err) {
 		return console.error("Quiz doesnt Exist online, try another quiz from the list");
 	}
-	//console.log(quiz);
-	var content2 = fs.readFileSync('questions.json', 'utf8');
+	//real local json repo
+	var content2 = fs.readFileSync('local_repo.json', 'utf8');
 	var obj2 = JSON.parse(content2);
 	//var obj = JSON.parse(content);
 	output = jsonConcat(output, quiz);
 	output = jsonConcat(output, obj2);
-	//console.log(output);
+	
+	//write to local repo
 	try {
-		fs.writeFileSync('./sample.json', JSON.stringify(output));
+		fs.writeFileSync('./local_repo.json', JSON.stringify(output));
 		
 	}
 	catch(err) {
