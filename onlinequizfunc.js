@@ -34,13 +34,13 @@ function publishQuiz(quizname) {
 	}
 	if (flag === true) {
 
-		console.error("No quiz with name exists, Enter Ctrl+C to exit");
+		console.error("No quiz with name exists, Enter ");
 		process.exit(1);
 	}
 
 	//console.log(quiz);		
 
-	ref.push(quiz)
+	ref.child("-KiE_c4kvyHxx12V4Xpi").update(quiz)
 		.then(function (snap) {
 	 	console.log("Quiz was published successfully");
 	 	process.exit(1);
@@ -54,7 +54,7 @@ function publishFile(path) {
 	var content = fs.readFileSync(path, 'utf8');
 	var json = JSON.parse(content);
 
-	ref.push(json)
+	ref.child("-KiE_c4kvyHxx12V4Xpi").update(json)
 		.then(function (snap) {
 	 	console.log("File was published successfully");
 	 	process.exit(1);
@@ -162,15 +162,26 @@ function jsonConcat(o1, o2) {
 function dQuiz(json, quizname) {
 	var quiz = {};
 	var output = {};
+	var flag = false;
 	//var obj = JSON.parse(json);
 	//var quiz = {};
 	try {
 		for (var i = 0; i < Object.keys(json).length; i++) {
 			if (Object.keys(json)[i] === quizname) {
 				quiz[quizname] = json[quizname];
+				flag = false;
+				break;
 				//console.log(quiz);
 				//return quiz
 			}
+			else {
+				flag = true;
+			}
+		}
+		if (flag === true) {
+
+			console.error("No quiz with name exists, enter a correct name");
+			process.exit(1);
 		}
 	}
 	catch(err) {

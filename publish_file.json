@@ -137,5 +137,145 @@
         {
             "Time": 20
         }
+    ],
+
+    "HomeEconomicsQuiz": 
+    [
+        {
+            "question": "Which of these do you wash your plate with?",
+            "a": "Soap",
+            "b": "Sand",
+            "c": "Oil",
+            "correct": "a"
+        },
+        {
+            "question": "You should ____ when you wake up in the morning?",
+            "a": "greet your parents",
+            "b": "slap your parents",
+            "c": "insult your parents",
+            "correct": "a"
+        },
+        {
+            "question": "Brush your teeth ____ daily?",
+            "a": "never",
+            "b": "twice",
+            "c": "10 times",
+            "correct": "b"
+        },
+        {
+            "Time": 20
+        }
+    ],
+
+    "ArtQuiz": 
+    [
+        {
+            "question": "Which of these isn't a type of art?",
+            "a": "Sculpture",
+            "b": "Painting",
+            "c": "Laughing",
+            "correct": "c"
+        },
+        {
+            "question": "Which of these are the primary colours?",
+            "a": "red, blue, yellow",
+            "b": "red, blue, green",
+            "c": "black white, red",
+            "correct": "a"
+        },
+        {
+            "question": " Mixture of red and yellow?",
+            "a": "green",
+            "b": "purple",
+            "c": "orange",
+            "correct": "a"
+        },
+        {
+            "Time": 20
+        }
+    ],
+
+    "ShapesQuiz": 
+    [
+        {
+            "question": "A triangle has how many sides?",
+            "a": "5",
+            "b": "3",
+            "c": "4",
+            "correct": "b"
+        },
+        {
+            "question": "If the length of one side of a square is x, calculate the perimeter of the square?",
+            "a": "x squared",
+            "b": "3x",
+            "c": "4x",
+            "correct": "c"
+        },
+        {
+            "question": "Which of these is not associated with a circle?",
+            "a": "Radius",
+            "b": "Tangent",
+            "c": "Equilateral",
+            "correct": "c"
+        },
+        {
+            "Time": 20
+        }
+    ],
+
+    "CountryQuiz":
+    [   
+        {   
+            "question":"Whis country is the largest in the world by land mass?",
+            "a":"Russia",
+            "b":"Asia",
+            "c":"Niger",
+            "correct":"a"
+        },
+        {   
+            "question":"Which country has the best Jollof?",
+            "a":"Ghana",
+            "b":"Nigeria",
+            "c":"Kenya",
+            "correct":"b"
+        },
+        {   
+            "question":"Which of these is not a country?",
+            "a":"Africa",
+            "b":"USA",
+            "c":"China",
+            "correct":"a"
+        },
+        {   
+            "Time":20
+        }
+    ],
+
+    "ComputerQuiz":
+    [   
+        {
+            "question":"What is the brain of the computer?",
+            "a":"Monitor",
+            "b":"CPU",
+            "c":"Mouse",
+            "correct":"b"
+        },
+        {   
+            "question":"All of these are component of a computer except?",
+            "a":"Mouse",
+            "b":"Rabbit",
+            "c":"Motherboard",
+            "correct":"b"
+        },
+        {   
+            "question":"CPU is?",
+            "a":"Central processing unit",
+            "b":"Computer processing unit",
+            "c":"Comic processsing unit",
+            "correct":"a"
+        },
+        {   
+            "Time":20
+        }
     ]
 }
